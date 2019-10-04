@@ -23,6 +23,7 @@ GDP per capita             |     Child Mortality       |  Life Expectancy in Yea
 :-------------------------:|:-------------------------:|:-------------------------:
 ![A](output/GDP.png) | ![B](output/child_mortality.png) | ![C](output/life_expectancy_years.png)
 
+diff
 
 GDP vs child_mortality     |   GDP vs life_expectancy  |  child_mortality vs life_expectancy
 :-------------------------:|:-------------------------:|:-------------------------:
