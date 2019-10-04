@@ -19,6 +19,7 @@ Visualize the distribution of income (GDP / capita) across countries and contine
 
 # Problem 3
 Use visualization to investigate the relationship between income (GDP / capita), life expectancy, and child mortality over time.  
+
 GDP per capita             |     Child Mortality       |  Life Expectancy in Years
 :-------------------------:|:-------------------------:|:-------------------------:
 ![A](output/GDP.png) | ![B](output/child_mortality.png) | ![C](output/life_expectancy_years.png)
