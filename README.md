@@ -24,8 +24,6 @@ GDP per capita             |     Child Mortality       |  Life Expectancy in Yea
 :-------------------------:|:-------------------------:|:-------------------------:
 ![A](output/GDP.png) | ![B](output/child_mortality.png) | ![C](output/life_expectancy_years.png)
 
-diff
-
 GDP vs child_mortality     |   GDP vs life_expectancy  |  child_mortality vs life_expectancy
 :-------------------------:|:-------------------------:|:-------------------------:
 ![A](output/gdp_vs_child_mortality.png) | ![B](output/gdp_vs_life_expectancy.png) | ![C](output/child_mortality_vs_life_expectancy_years.png)
@@ -39,10 +37,20 @@ GDP vs child_mortality     |   GDP vs life_expectancy  |  child_mortality vs lif
 ## Interpret your visualizations, noting any trends and/or outliers.
 ### GDP vs Child Mortality
 - Lower GDP leads to higher child mortality, but this correlation have been more minor in recent years. The trend, however, is different in the region *Middle East North Africa* where it stay stables in the last 20 years. *South Asia* are having stronger correlation in recent years which is also different from other regions. This might simply means that child mortality are have equally dropped within these regions regardless of GDP.
+- GDP vs Child Mortality in Middle East North Africa  
+![A](output/mena_gdp_child.gif)
+- GDP vs Child Mortality in South Asia  
+![A](output/sa_gdp_child.gif)
 ### GDP vs Life Expectancy
-- The correlation have a more significant drop in the region of *sub-Saharan Africa* and *South Asia* in recent years, which also are regions that also have less GDP comparing to others. It is possible that people in this region have same life expectancy regardless of GDP in recnt years.
+- The correlation have a more significant drop in the region of *sub-Saharan Africa* and *South Asia* in recent years, which also are regions that also have less GDP comparing to others. It is possible that people in this region have same life expectancy regardless of GDP in recnt years.  
+- GDP vs Life in *sub-Saharan Africa*  
+![A](output/ssa_life_gdp.gif)
+- GDP vs Life in *South Asia*  
+![A](output/sa_life_gdp.gif)
 ### Child Mortality vs Life Expectancy
 - Higher life expectancy are related to lower child mortality, but this correlation have become more minor. The correlation are even more minor in *sub-Saharan Africa* in recent years. Combining with the previous result in *GDP vs Life Expectancy*, we can see that life expectancy have little correlation with both GDP and child mortality in this region. This might indicate that the health care quality in this region are more affected by outside-organization, and need futher investigation.
+- Child Mortality vs Life Expectancy in *sub-Saharan Africa*  
+![A](output/ssa_life_child.gif)
 
 # Problem 4
 ## Choose two variables you have not investigated yet, and visualize their distributions, their relationship with each other, and how these change over time.
@@ -63,3 +71,12 @@ From the correlation between the 2 variables over time, we can see that there is
 I used static plots in all previous problems.
 ## Explore the data using the interactive visualization tools at <https://www.gapminder.org/tools>, and watch the TED talk “The best stats you’ve ever seen” at <https://www.youtube.com/watch?v=hVimVzgtD6w>.
 ## Discuss the advantages, disadvantages, and relative usefulness of using interactive/dynamic visualizations versus static visualizations.
+- Advantages
+    - Allow the users to explore the data instead of just reading it.
+    - Users can decide the information to be presented.
+    - Different kinds of exploration can be adopted when users have more understanding of the underlying data.
+    - More enjoyful to use.
+- Disadvantages
+    - Require more effort to understand how to interact/read the tool.
+    - Data are not presented on first-sight.
+    - Different people will have different understanding of the data.
